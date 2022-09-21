@@ -36,4 +36,4 @@ for letter in args.message:
     else:
         key_index = key_index + 1
 
-print("Your encrypt message is:", outpout_message)
+print("Your", args.mode, "message is:", outpout_message)
